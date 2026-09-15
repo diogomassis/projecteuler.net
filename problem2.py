@@ -10,12 +10,11 @@ def fibonnaci() -> int:
 
 
 def mathematical_fibonacci() -> int:
-    c, a, b = 0, 0, 2
+    a, b = 0, 2
     total = 0
-    while c <= 4000000:
+    while b <= 4000000:
         total += b
-        c = 4 * b + a
-        a, b = b, c
+        a, b = b, (4 * b + a)
     return total
 
 
