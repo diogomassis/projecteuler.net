@@ -13,3 +13,15 @@ sum(3) + sum(5) - sum(15)
 ```
 
 This produces the result **233168**.
+
+## Problem 2: Even Fibonacci numbers
+
+Find the sum of all even-valued Fibonacci terms whose values do not exceed four million.
+
+The solution iterates through Fibonacci numbers, adds the even terms, and stops once the value exceeds 4,000,000:
+
+```text
+sum(even Fibonacci terms <= 4,000,000)
+```
+
+This produces the result **4613732**.
